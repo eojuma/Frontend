@@ -36,5 +36,5 @@ This repository contains a frontend project demonstrating best practices in mode
   - Fetch API for HTTP requests.
   - ES6+ features (arrow functions, destructuring, modules).
   - Frameworks/libraries (React, Vue, or Angular – if used).
-
-
+  
+  
