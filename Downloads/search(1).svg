@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" id="search">
+  <linearGradient id="a" x1="868.281" x2="875.406" y1="7.278" y2="-1.524" gradientTransform="matrix(3.0757 0 0 -3.0757 -2667.455 22.948)" gradientUnits="userSpaceOnUse">
+    <stop offset="0"></stop>
+    <stop offset="1"></stop>
+  </linearGradient>
+  <path fill="url(#a)" d="M5.917 0h16.165A5.917 5.917 0 0 1 28 5.917v16.165A5.917 5.917 0 0 1 22.083 28H5.917A5.917 5.917 0 0 1 0 22.083V5.917A5.917 5.917 0 0 1 5.917 0z"></path>
+  <path fill="#fff" d="M16 17c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5zm0-9c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z"></path>
+  <path fill="#fff" d="m7 20.293 5.464-5.466.707.708L7.706 21z"></path>
+</svg>
