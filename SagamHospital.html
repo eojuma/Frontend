@@ -6,13 +6,45 @@
     <title>Quiz appliaction</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
 
 </head>
 <body>
+    
+    
+
    <i class="fa-solid fa-circle-h"></i>
     <h1>Sagam <i class="fa-solid fa-square-h"></i>ospital</h1>
-    <h2>Welcome to Sagam Hospital</h2>
-    <p>We are dedicated to providing the best healthcare services to our community. Our team of experienced professionals is here to ensure your health and well-being.</p>
+   
+    <h2 style="color:teal;">Welcome to Sagam Hospital,where serving you is our passion:</h2>
+    
+     <form autocomplete="on">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" autocomplete="given-name" />
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" autocomplete="given-name" />
+
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autocomplete="email" />
+      
+       <label for="age">D.O.B:</label>
+        <input type="date" id="email" name="email" autocomplete="email" />
+
+        <label for="phone">Phone number:</label>
+        <input type="tel"  placeholder="123-456-7890"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phone" name="phone" autocomplete="phone" required/>
+
+
+
+
+
+
+       <span class="btn"> <button type="submit">Submit</button></span>
+      </form>
+      
+     <p>We are dedicated to providing the best healthcare services to our community. Our team of experienced professionals is here to ensure your health and well-being.</p>
     <h3>Our Services include:</h3>
     <ul>
         <li>General Medicine</li>
@@ -29,11 +61,13 @@
    
     <footer>
         <p>Follow us on social media to explore our services and get a glimpse of what we offer before you choose us. </p>
-        <i class="fa-brands fa-square-whatsapp"></i>
-        <i class="fa-brands fa-square-x-twitter"></i>
-        <i class="fa-brands fa-square-instagram"></i>
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-square-linkedin"></i>
+       <a href="https://www.whatsapp.com"> <i class="fa-brands fa-square-whatsapp"></i></a>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-square-x-twitter"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+       <a href="https://www.linkedin.com"> <i class="fa-brands fa-linkedin"></i></a>
+       
+        <p>&copy; 2025 Sagam Hospital. All rights reserved.</p>
 
 
 
