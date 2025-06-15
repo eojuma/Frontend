@@ -19,7 +19,46 @@ footer{
     color: darkblue;
 }
 .fa-square-whatsapp{
-    font-size: 100px;
+    font-size: 40px;
     color: green;
     text-align: center;
+}
+
+.fa-square-x-twitter{
+    font-size:40px;
+    color: black;
+    text-align: center;
+}
+.fa-facebook{
+    font-size: 40px;
+    color: darkblue;
+    text-align: center;
+}
+.fa-square-instagram{
+    font-size: 40px;
+    color: darkviolet;
+    text-align: center;
+}
+.fa-linkedin{
+    font-size: 40px;
+    color: darkslateblue;
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: green;
+    color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body{
+    background-image:url(./Images/copy-space-doctor-office.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: black;
 }
