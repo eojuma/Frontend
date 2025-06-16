@@ -1,4 +1,4 @@
-# Frontend Development Project
+# Frontend Development
 
 ## Overview
 Frontend development involves building the user interface (UI) and user experience (UX) of a website or web application. It focuses on what users interact with directly in their browsers. The three core technologies of frontend development are:
