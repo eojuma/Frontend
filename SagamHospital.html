@@ -19,26 +19,38 @@
     <h2 style="color:teal;">Welcome to Sagam Hospital,where serving you is our passion:</h2>
     
      <form autocomplete="on">
-        <label for="firstname">First Name:</label>
+        <div>
+            <label for="firstname">First Name:</label>
         <input type="text" id="firstname" name="firstname" autocomplete="given-name" />
+    </div>
 
-        <label for="lastname">Last Name:</label>
+
+        <div>
+            <label for="lastname">Last Name:</label>
         <input type="text" id="lastname" name="lastname" autocomplete="given-name" />
-
-      
+        </div>
+       
+       
+        <div> 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" autocomplete="email" />
-      
-       <label for="age">D.O.B:</label>
+     </div>
+
+      <div>
+     <label for="age">D.O.B:</label>
         <input type="date" id="email" name="email" autocomplete="email" />
+      </div>
 
-        <label for="phone">Phone number:</label>
-        <input type="tel"  placeholder="123-456-7890"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phone" name="phone" autocomplete="phone" required/>
+       <div>
+         <label for="phone">Phone number:</label>
+        <input type="tel"  placeholder="+254-710-090-197"  pattern="\+254-\d{3}-\d{3}-\d{3}"
+        id="phone" name="phone" autocomplete="phone" required/>
+       </div>
 
-       <span class="btn"> <button type="submit">Submit</button></span>
+       <button type="submit">Submit</button>
       </form>
       
-     <p>We are dedicated to providing the best healthcare services to our community. Our team of experienced professionals is here to ensure your health and well-being.</p>
+     <p id="p1">We are dedicated to providing the best healthcare services to our community. Our team of experienced professionals is here to ensure your health and well-being.</p>
     <h3>Our Services include:</h3>
     <ul>
         <li>General Medicine</li>

@@ -55,10 +55,17 @@ footer{
 }
 
 body{
-    background-image:url(./Images/copy-space-doctor-office.jpg) ;
+    background: linear-gradient(to bottom,skyblue, teal);
+    /* background-image:url(./Images/royce-fonseca-Zch-aimk7JE-unsplash.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
+    color: black;
+}
+
+#p1{
+    font-size: 20px;
+   font-style: italic;
     color: black;
 }
