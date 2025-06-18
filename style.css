@@ -69,3 +69,8 @@ body{
    font-style: italic;
     color: black;
 }
+
+.columns{
+    column-count: 4;
+    column-width: 250px;
+}
