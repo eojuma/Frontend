@@ -55,7 +55,7 @@ footer{
 }
 
 body{
-    background: linear-gradient(to bottom,skyblue, teal);
+    /* background: linear-gradient(to bottom,skyblue, teal); */
     /* background-image:url(./Images/royce-fonseca-Zch-aimk7JE-unsplash.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,4 +73,12 @@ body{
 .columns{
     column-count: 4;
     column-width: 250px;
+    column-rule: 2.5px solid black;
+    color: rgba(0, 0, 7, 0.493);
+    column-gap: 5px;
+}
+
+section p {
+    background-color:honeydew;
+    margin-top: 0px;
 }
